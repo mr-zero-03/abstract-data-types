@@ -32,13 +32,15 @@ void deQueue(){
         printf("El queue se encuentra vacío, no hay elementos para eliminar.");
     }else{      //There are items in the queue
         printf("El elemento con valor %i fue eliminado.", array[front]);
-
+	    
         for(int i=0; i<rear;){    //Move all the array one space (array[1] now is in position [0])
             int j = i;
             i++;
             array[j] = array[i];
         }
         rear--;
+	    
+	//Return the value of the item deQueued
     }
 }
 
