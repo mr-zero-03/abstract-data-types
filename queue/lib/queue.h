@@ -72,7 +72,7 @@ void isEmpty(){
         int e = rear+1;
         char s;
         if(rear > 0){   //Multiple items in the array
-			       s = 's';
+	    s = 's';
         }
         printf("No se encuentra vacío. El queue tiene %i elemento%c", e, s);
     }
