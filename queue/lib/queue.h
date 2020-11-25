@@ -5,7 +5,7 @@ int array[SIZE];
 int front=-1, rear=-1;
 
 
-bool isEmptyVar(){    //Is the array empty? (Empty=true; No empty=false)
+bool isEmptyVar(){    //Is the array empty? (Empty==true; No empty==false)
   return (front < 0);
 }
 
