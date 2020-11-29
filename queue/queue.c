@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <string.h>
-#include "func-queue.h"
+#include "/lib/queue.h"
 
 void menu(){
     int option = 0;
@@ -11,11 +11,11 @@ void menu(){
         printf("1. enQueue (Ingresar datos al queue)\n");
         printf("2. deQueue (Borrar el primer dato en ingresar al queue)\n");
         printf("3. clean (Borrar todo el queue)\n");
-        printf("4. isEmpty (Revisar si el queue est· vacÌo)\n");
+        printf("4. isEmpty (Revisar si el queue est√° vac√≠o)\n");
         printf("5. Imprimir el queue\n");
         printf("6. Salir\n");
         printf("==============================================================");
-        printf("\nElige tu opciÛn: ");
+        printf("\nElige tu opci√≥n: ");
         scanf("%i", &option);
         printf("\n");
         
@@ -39,7 +39,7 @@ void menu(){
                 printf("\nGracias por usar");
             break;
             default:
-                printf("OpciÛn invalida");
+                printf("Opci√≥n invalida");
         }
         if(option != 5){
             printf("\n");
