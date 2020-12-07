@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <string.h>
-#include "/lib/queue.h"
+#include "lib/queue.h"
 
 void menu(){
     int option = 0;
